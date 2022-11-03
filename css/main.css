@@ -53,9 +53,13 @@ p{
 .banner-main-text-con {
     background-color:rgb(62 17 68);
 }
+.banner-main-text a{
+    color: #fff !important;
+}
 
 .banner-main-text h1 {
     font-family: 'ui-sans-serif', 'ui-monospace';
+    
 }
 
 .banner-sm-openner {
