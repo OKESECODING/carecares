@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/nav.css">
 </head>
 
 <body style="background-color: #fcfaf8;">
@@ -19,7 +20,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <div class="collapse navbar-collapse">
                     <div class="container navbar-con">
 
                     <ul class="navbar-nav me-auto mt-2 mt-lg-0">
@@ -36,7 +37,8 @@
                                 <a class="dropdown-item" href="#">Action 2</a>
                             </div>
                         </li>
-                    </ul></div>
+                    </ul>
+                </div>
 
                     <form class="d-flex my-2 my-lg-0">
                         <input class="form-control me-sm-2" type="text" placeholder="Search">
@@ -45,6 +47,18 @@
                 </div>
           </div>
         </nav>
+        <nav class="navbar-primary   collapse navbar-collapse d-lg-none" id="collapsibleNavId">
+            <a href="#" class="btn-expand-collapse"><span class="glyphicon glyphicon-menu-left"></span></a>
+            <ul class="navbar-primary-menu">
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-list-alt"></span><span class="nav-label">Dashboard</span></a>
+                <a href="#"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Profile</span></a>
+                <a href="#"><span class="glyphicon glyphicon-cog"></span><span class="nav-label">Settings</span></a>
+                <a href="#"><span class="glyphicon glyphicon-film"></span><span class="nav-label">Notification</span></a>
+                <a href="#"><span class="glyphicon glyphicon-calendar"></span><span class="nav-label">Monitor</span></a>
+              </li>
+            </ul>
+          </nav>
         
     </nav>
     <!-- for large screen -->

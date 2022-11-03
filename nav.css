@@ -25,7 +25,11 @@
     transition: all 0.1s ease-in-out;
  
   }
-  
+  @media (min-width: 576px)
+ {
+  .navbar-primary{
+    display: none}
+}
   
   .navbar-primary.collapsed {
     width: 60px;
