@@ -12,7 +12,7 @@
   }
   
   .navbar-primary {
-    background-color: #333;
+    background:  rgb(62 17 68);
     bottom: 0px;
     left: 0px;
     position: absolute;
@@ -70,6 +70,7 @@
   .navbar-primary-menu li {
     margin:0; padding:0;
     list-style: none;
+   
   }
   
   .navbar-primary-menu li a {
