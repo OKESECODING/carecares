@@ -5,6 +5,7 @@
 a {
     color: #fff !important;
 }
+
 p{
     color: #400e00 !important;
 }
@@ -13,7 +14,11 @@ p{
     border: solid rgb(177, 218, 94);
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+
+}
+
+
 
 
 .banner-main-text-con {
