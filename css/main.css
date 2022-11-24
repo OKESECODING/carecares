@@ -1,0 +1,73 @@
+.navbar {
+    background-color: rgba(190, 219, 180, 0.446);
+}
+
+a {
+    color: #fff !important;
+}
+p{
+    color: #400e00 !important;
+}
+.btn{
+    margin: 0px 5px;
+    border: solid rgb(177, 218, 94);
+}
+
+@media (max-width: 576px) {}
+
+
+.banner-main-text-con {
+    background-color: rgba(192, 192, 192, 0.628);
+}
+
+.banner-main-text h1 {
+    font-family: 'ui-sans-serif', 'ui-monospace';
+}
+
+.banner-sm-openner {
+    margin: 15em 0px 0em 0px;
+}
+
+.sm-main-banner {
+
+    background-color: black;
+    background-image:
+
+
+        url('/img/FlexipayGirl_Landscape_fw_h.jpg');
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+i.icon {
+    margin: 10px;
+}
+
+.card {
+
+    background-color: rgba(255, 255, 255, 0.668) !important;
+}
+
+.card:hover {
+    box-shadow: 0 .5rem 0rem rgba(0, 0, 0, .15) !important;
+}
+
+.benefits-text-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.community-section {
+    background-color: rgba(192, 192, 192, 0.628);
+}
+
+.parteners-section {
+    background-color: rgba(21, 19, 19, 0.301);
+}
+
+.parteners-section li {
+    list-style: none;
+    margin: 5px;
+}
