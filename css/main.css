@@ -172,9 +172,9 @@ i.icon {
 .join-section{
     background-image:
   linear-gradient(270deg, rgb(62 17 68), transparent ),
-  url('/img/The-Best-Senior-Care-in-South-Carolina-and-Virginia.jpeg');
+  url('/img/aeldre-plejehjem_3d641b2a1316_aa_time_1625816665.webp');
    height: 20em; /* You must set a specified height */
-    background-position: center; /* Center the image */
+    background-position: top; /* top side of the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
